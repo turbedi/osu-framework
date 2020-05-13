@@ -110,7 +110,7 @@ namespace osu.Framework.Graphics.Containers
 
             var children = FlowingChildren.ToArray();
             if (children.Length == 0)
-                return new List<Vector2>();
+                return Array.Empty<string>();
 
             // The positions for each child we will return later on.
             Vector2[] result = new Vector2[children.Length];
